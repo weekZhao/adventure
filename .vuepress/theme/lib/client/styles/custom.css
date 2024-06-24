@@ -1,0 +1,36 @@
+/* 自定义页面样式 */
+body {
+  background-image: linear-gradient(90deg,rgba(60,10,30,.06) 3%,transparent 0),linear-gradient(1turn,rgba(60,10,30,.06) 3%,transparent 0);
+  background-size: 20px 20px;
+  background-position: 50%;
+}
+
+/* 首页BannerBrand    标题 */
+.banner-brand__content {
+  position: relative;
+  left: -20%;
+  .tagline {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-brand__content {
+    position: relative;
+    left: 0%;
+  }
+}
+
+/* 首页Blog  分类栏 */
+.category-wrapper {
+  .category-item {
+    border-color: #e5e7eb !important;
+  }
+}
+
+/* 首页Blog post */
+.post-list-container {
+  .post-item-container:hover {
+    transform: scale(1.02);
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      "vuepress-theme-reco@2.0.0-beta.53",
+      "C:\\Users\\MrZhao\\Desktop\\adventure\\adventure"
+    ]
+  ],
+  "_from": "vuepress-theme-reco@2.0.0-beta.53",
+  "_id": "vuepress-theme-reco@2.0.0-beta.53",
+  "_inBundle": false,
+  "_integrity": "sha512-PpWc7Q+8Zn+YlNC8AlakKRssXcjbEuGq479L5dU6LENZ+8lNWVWMeAvKL6G2/STQcJu68QQP0hF8dzu/Sr7ESw==",
+  "_location": "/vuepress-theme-reco",
+  "_phantomChildren": {
+    "browserslist": "4.21.5",
+    "caniuse-lite": "1.0.30001476",
+    "fraction.js": "4.2.0",
+    "nanoid": "3.3.6",
+    "normalize-range": "0.1.2",
+    "picocolors": "1.0.0",
+    "postcss-value-parser": "4.2.0",
+    "source-map-js": "1.0.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vuepress-theme-reco@2.0.0-beta.53",
+    "name": "vuepress-theme-reco",
+    "escapedName": "vuepress-theme-reco",
+    "rawSpec": "2.0.0-beta.53",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-beta.53"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/vuepress-theme-reco/-/vuepress-theme-reco-2.0.0-beta.53.tgz",
+  "_spec": "2.0.0-beta.53",
+  "_where": "C:\\Users\\MrZhao\\Desktop\\adventure\\adventure",
+  "author": {
+    "name": "reco_luan",
+    "email": "recoluan@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/recoluan/vuepress-theme-reco/issues"
+  },
+  "dependencies": {
+    "@vicons/carbon": "^0.12.0",
+    "@vuepress-reco/shared": "2.0.0-beta.53",
+    "@vuepress-reco/tailwindcss-config": "2.0.0-beta.53",
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "2.0.0-beta.53",
+    "@vuepress-reco/vuepress-plugin-code-copy": "2.0.0-beta.53",
+    "@vuepress-reco/vuepress-plugin-comments": "2.0.0-beta.53",
+    "@vuepress-reco/vuepress-plugin-markdown-task": "2.0.0-beta.53",
+    "@vuepress-reco/vuepress-plugin-page": "2.0.0-beta.53",
+    "@vuepress-reco/vuepress-plugin-vue-preview": "2.0.0-beta.53",
+    "@vuepress/bundler-vite": "2.0.0-beta.60",
+    "@vuepress/bundler-webpack": "2.0.0-beta.60",
+    "@vuepress/client": "2.0.0-beta.60",
+    "@vuepress/core": "2.0.0-beta.60",
+    "@vuepress/plugin-active-header-links": "2.0.0-beta.60",
+    "@vuepress/plugin-back-to-top": "2.0.0-beta.60",
+    "@vuepress/plugin-container": "2.0.0-beta.60",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.60",
+    "@vuepress/plugin-external-link-icon": "2.0.0-beta.60",
+    "@vuepress/plugin-git": "2.0.0-beta.60",
+    "@vuepress/plugin-medium-zoom": "2.0.0-beta.60",
+    "@vuepress/plugin-nprogress": "2.0.0-beta.60",
+    "@vuepress/plugin-palette": "2.0.0-beta.60",
+    "@vuepress/plugin-prismjs": "2.0.0-beta.60",
+    "@vuepress/plugin-register-components": "2.0.0-beta.60",
+    "@vuepress/plugin-search": "2.0.0-beta.60",
+    "@vuepress/plugin-theme-data": "2.0.0-beta.60",
+    "@vuepress/shared": "2.0.0-beta.60",
+    "@vuepress/utils": "2.0.0-beta.60",
+    "autoprefixer": "10.4.7",
+    "postcss": "8.4.14",
+    "postcss-each": "1.1.0",
+    "postcss-import": "14.0.2",
+    "tailwindcss": "3.1.6",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.5"
+  },
+  "description": "> TODO: description",
+  "devDependencies": {
+    "eslint-config-vuepress": "3.2.1",
+    "eslint-config-vuepress-typescript": "2.2.1",
+    "prettier": "2.2.1",
+    "sort-package-json": "1.44.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "templates"
+  ],
+  "homepage": "https://github.com/recoluan/vuepress-theme-reco#readme",
+  "license": "MIT",
+  "main": "lib/node/index.js",
+  "name": "vuepress-theme-reco",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recoluan/vuepress-theme-reco.git"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json",
+    "build:watch": "tsc --build -w tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "copy": "cpx \"src/**/*.{d.ts,vue,scss,css,svg,png,jpg}\" lib",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "type": "module",
+  "types": "lib/node/index.d.ts",
+  "version": "2.0.0-beta.53"
+}

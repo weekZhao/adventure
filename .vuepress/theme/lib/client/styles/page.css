@@ -1,0 +1,6 @@
+.page-container {
+  @apply my-24;
+  .page-info {
+    @apply mb-4;
+  }
+}
